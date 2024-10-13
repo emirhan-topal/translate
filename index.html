@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Translate</title>
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mainDiv">
+        <h1>Translate</h1>
+        
+        <select id="fromLangSelect">
+            <option value="tr" selected>Türkiye</option>
+            <option value="en">İngilizce</option>
+            <option value="ru">Rusça</option>
+        </select>
+
+        <button id="return">🔄</button>
+
+        <select id="toLangSelect">
+            <option value="tr">Türkiye</option>
+            <option value="en" selected>İngilizce</option>
+            <option value="ru">Rusça</option>
+        </select>
+
+        <br>
+
+        <textarea id="inputText" placeholder="Merhaba, Dünya!"></textarea>
+        <textarea id="outputText" readonly></textarea>
+        <br>
+        <button id="readWithSoundButton">Sesli oku</button>
+        <button id="copyOutputButton">Kopyala</button>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
